@@ -1,0 +1,12 @@
+.blog-post-holder {
+	margin-top: 1rem;
+}
+
+.link {
+	color: black;
+}
+
+.link:hover {
+	color: black;
+	text-decoration: none;
+}

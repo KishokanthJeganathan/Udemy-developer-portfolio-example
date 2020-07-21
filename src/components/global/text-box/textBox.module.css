@@ -1,0 +1,12 @@
+.text-box {
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-box-content {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}

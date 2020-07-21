@@ -1,0 +1,69 @@
+.contact {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(218, 214, 214, 0.459);
+}
+
+.title {
+	text-align: center;
+}
+
+.input-holder {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.email,
+.messege {
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.btn {
+	margin-top: 0.8rem;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+}
+
+form {
+	text-align: center;
+}
+
+.error {
+	margin-top: 0.4rem;
+}
+
+.messege {
+	height: 10vh;
+}
+
+@media only screen and (max-device-width: 576px) {
+	.email,
+	.messege {
+		width: 90vw;
+		margin: 0.3rem;
+	}
+}
+@media only screen and (min-device-width: 577px) {
+	.email,
+	.messege {
+		width: 60vw;
+		margin: 0.3rem;
+	}
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1300px) {
+}
+
+@media only screen and (min-device-width: 1300px) {
+}

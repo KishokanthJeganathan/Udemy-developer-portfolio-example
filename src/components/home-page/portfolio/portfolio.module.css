@@ -1,0 +1,10 @@
+.row {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgba(218, 214, 214, 0.459);
+	padding: 2rem 0rem;
+}
+
+.portfolio {
+	text-align: center;
+}

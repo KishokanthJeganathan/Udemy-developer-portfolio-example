@@ -1,0 +1,29 @@
+.hero-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 90vh;
+	text-align: center;
+	background-color: rgba(218, 214, 214, 0.459);
+	font-weight: 400;
+}
+
+.hero-image-holder {
+	padding: 0rem;
+}
+
+.title,
+.content {
+	padding: 0rem 2rem;
+}
+
+.content {
+	margin-top: 2rem;
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+	.content {
+		margin: 2rem 10rem;
+	}
+}
